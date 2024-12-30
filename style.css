@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(
+    background:linear-gradient(
     90deg,
-    rgb(201, 112, 228) 0%,
-    rgb(115, 15, 124) 50%,
-    rgb(238, 157, 231) 100%
+    rgb(151, 243, 255) 0%,
+    rgb(66, 184, 184) 50%,
+    rgb(29, 198, 184) 100%
   );
   
     }
