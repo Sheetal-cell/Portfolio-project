@@ -117,10 +117,23 @@ body {
 
   /* skill Section */
   #skills {
+    h1{text-align: left;}
     h1{
-      text-align: center;
+      text-align:center;
     }
     padding: 50px 0;
+    .container{
+      display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+        gap: 20px; /* Space between the paragraphs */
+    
+  
+    }
+    .container p {
+      padding: 10px;
+
+    };
+    
     background: rgb(128, 139, 220);
     background: linear-gradient(
     90deg,
@@ -128,6 +141,7 @@ body {
     rgb(92, 222, 178) 50%,
     rgb(59, 192, 139) 100%
   );
+  
  
   
 
@@ -136,8 +150,9 @@ body {
   }
   
   #skills p {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    text-align: left;
   }
 
 
