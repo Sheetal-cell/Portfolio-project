@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(99, 28, 87);
     background: linear-gradient(
     90deg,
     rgb(201, 112, 228) 0%,
@@ -28,9 +27,17 @@ body {
   
   /* Header */
   header {
-    background-color: #73ecf5;
-    color: rgb(0, 0, 0);
-    padding: 1px;
+    background-image: url('Screenshot\ 2024-12-30\ 132321.png'); /* Path to your image */
+    background-size: cover; /* Adjust image to cover the entire area */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    color: white; /* Text color for better visibility */
+    h1{
+      color: #ffffff;
+    }
+    padding: 30px; /* Space inside the header */
+    text-align: center; /* Center align text */
+
   }
   
   header h1 {
@@ -50,7 +57,7 @@ body {
   }
   
   header nav ul li a {
-    color: rgb(76, 0, 156);
+    color: rgb(213, 241, 251);
     text-decoration: none;
     font-weight: bold;
   }
