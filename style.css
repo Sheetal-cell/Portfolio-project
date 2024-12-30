@@ -162,6 +162,9 @@ body {
   #projects {
     padding: 50px 0;
     text-align: center;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
   }
   
   .project-grid {
@@ -183,8 +186,18 @@ body {
   
   .project-card h3 {
     margin-top: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
   }
 
+  .project-card img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
   /* blogs Section */
   #blogs {
     padding: 50px 0;
