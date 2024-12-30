@@ -27,7 +27,7 @@ body {
   
   /* Header */
   header {
-    background-image: url('Screenshot\ 2024-12-30\ 132321.png'); /* Path to your image */
+    background-image: url('images/Screenshot\ 2024-12-30\ 132321.png'); /* Path to your image */
     background-size: cover; /* Adjust image to cover the entire area */
     background-position: right; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
